@@ -1,0 +1,107 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background: -webkit-linear-gradient(#3498db,#9b59b6);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+#forgot-pass {
+    color: #16a085;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0,0,0,.65);
+    height: 410px;
+    margin: 164.5px auto;
+    width: 329px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+
+#card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+#signup {
+    color: #16a085;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#submit-btn {
+    background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0 1px 8px #fff;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 50px auto 0;
+    transition: 0.25s;
+    width: 153px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+}
+
+#submit-btn:hover {
+    box-shadow: 0 1px 18px #fff;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    height: 1px;
+    width: 100%;
+    background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.underline {
+    background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+    height: 2px;
+    margin: -17.6px auto 0;
+    width: 89px;
+}
